@@ -23,10 +23,21 @@ public class DemoService {
     }
 
 
+    /**
+     * 根据ID找到对象
+     * @param id
+     * @return
+     */
     public Address findById(int id){
         return addressRepository.findOne(id);
     }
 
+    /**
+     * 修改地区名称
+     * @param id
+     * @param address
+     * @return
+     */
     public Address updateName(int id, String address){
         Address a = addressRepository.findOne(id);
         if (a!=null){

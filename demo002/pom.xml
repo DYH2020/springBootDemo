@@ -36,7 +36,7 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!-- start  test依赖,必须添加 -->
+        <!-- test依赖,必须添加 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
