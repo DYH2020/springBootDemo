@@ -40,11 +40,14 @@ public class DemoController {
     @RequestMapping(value = "/queryaddress")
     public String demo(@RequestParam(name = "name")String name){
         List<Address> addressList = demoService.queryAddress("%"+name+"%");
-        List<Address> addressList2 = addressRepository.queryListByName("%"+name+"%");
         System.out.println(addressList.toString());
-        System.out.println(addressList2.toString());
+
+        //不建议在controller层直接调用addressRepository，虽然同样能够达到效果，
+        //List<Address> addressList2 = addressRepository.queryListByName("%"+name+"%");
+        //System.out.println(addressList2.toString());
+
         return addressList.toString();
-//        return "wolaile";
+        //return "wolaile";
     }
 
 
