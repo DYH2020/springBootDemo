@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = Main.class)
+@SpringApplicationConfiguration(classes = Main.class)//扫描启动类
 public class DemoTest {
 
     @Autowired
