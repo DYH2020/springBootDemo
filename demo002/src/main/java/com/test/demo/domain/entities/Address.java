@@ -28,6 +28,12 @@ public class Address {
     private String city;
 
     /**
+     * 区
+     */
+    @Column(name = "area", nullable = false)
+    private String area;
+
+    /**
      * address
      */
     @Column(name = "address", nullable = false)
@@ -122,6 +128,14 @@ public class Address {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
     }
 
     public String getAddress() {
@@ -226,6 +240,7 @@ public class Address {
                 "id=" + id +
                 ", province='" + province + '\'' +
                 ", city='" + city + '\'' +
+                ", area='" + area + '\'' +
                 ", address='" + address + '\'' +
                 ", createTime=" + createTime +
                 ", updateTime=" + updateTime +
