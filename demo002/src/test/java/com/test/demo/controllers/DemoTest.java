@@ -12,8 +12,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.List;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = Main.class)//扫描启动类
+//@RunWith(SpringJUnit4ClassRunner.class)
+//@SpringApplicationConfiguration(classes = Main.class)//扫描启动类
 public class DemoTest {
 
     @Autowired
@@ -29,7 +29,7 @@ public class DemoTest {
      * 查找地址
      * 访问addressRepository层
      */
-	@Test
+//	@Test
 	public void query() {
 		System.out.println("===访问addressRepository层====");
 		List<Address> lst = addressRepository.queryListByName("%我%");
@@ -46,7 +46,7 @@ public class DemoTest {
 	/**
 	 * 查找地址，访问controller层
 	 */
-    @Test
+//    @Test
     public void queryAddress(){
         System.out.println("===访问controller层====");
         String str = demoController.demo("%我%");
@@ -56,7 +56,7 @@ public class DemoTest {
     /**
      * 查找地址，访问service层
      */
-    @Test
+//    @Test
     public void queryServiceAddress(){
         System.out.println("===访问service层====");
         List<Address> lst = demoService.queryAddress("%我%");
