@@ -11,9 +11,6 @@ import com.fasterxml.jackson.databind.introspect.VisibilityChecker;
 import java.io.IOException;
 import java.io.StringWriter;
 
-/**
- * Created by huangguoping
- */
 public class JsonSerializer {
     static ObjectMapper mapper = new ObjectMapper();
     public static String toJson(Object object){

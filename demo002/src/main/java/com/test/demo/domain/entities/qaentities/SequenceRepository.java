@@ -7,9 +7,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.ParameterMode;
 import javax.persistence.StoredProcedureQuery;
 
-/**
- * Created by huangguoping.
- */
 @Service
 public class SequenceRepository {
     @Autowired

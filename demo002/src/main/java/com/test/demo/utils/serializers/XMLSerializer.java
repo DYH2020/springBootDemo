@@ -8,9 +8,6 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.*;
 
-/**
- * Created by huangguoping.
- */
 public class XMLSerializer {
     public static byte[] objectToBytes(Object obj) {
         byte[] result = null;

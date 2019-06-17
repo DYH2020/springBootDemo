@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0355d1f-c145-4c72-8723-22ea6016bf78" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_filters/filter-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config_filters/filter-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/SequenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/SequenceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/JsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/JsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/XMLSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/XMLSerializer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/controllers/wechat/JsApiPayController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,31 +30,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/wxpay/sdk/WXPay.java">
+        <entry file="file://$PROJECT_DIR$/config_filters/filter-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/JsonSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="229" selection-start-line="229" selection-end-line="229" />
+            <state relative-caret-position="60">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/XMLSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/SequenceRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config_filters/filter-dev.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/Sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -143,6 +149,7 @@
       <find>oJFgS0clT_KX5N61Uw2DkEBCoYxg</find>
       <find>callBackMethod</find>
       <find>fillRequestData</find>
+      <find>huangguo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,7 +190,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/demo/models/enums/PaymentStatusEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/demo/utils/StringHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/demo/utils/RandomUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/SequenceRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/ConsultOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/demo/services/IdGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/CommonSection.java" />
@@ -198,6 +204,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/demo/utils/wxpay/sdk/YWTWXPayDomainSimpleImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/demo/controllers/wechat/JsApiPayController.java" />
         <option value="$PROJECT_DIR$/config_filters/filter-dev.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/JsonSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/XMLSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/SequenceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/Sequence.java" />
       </list>
     </option>
   </component>
@@ -571,7 +581,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -588,7 +598,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49427754" weight="0.31084338" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49427754" visible="true" weight="0.31084338" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50572246" side_tool="true" weight="0.329602" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -629,7 +639,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/wechat/entities/Address.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/wechat/controllers/ExcelController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/wechat/exceptions/NullOrEmptyException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/wechat/utils/Checker.java" />
@@ -694,24 +703,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/Sequence.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/SequenceRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/ConsultOrder.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/CommonSection.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/XMLSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/demo/controllers/DemoTest.java">
@@ -959,8 +955,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config_filters/filter-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/JsonSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/utils/serializers/XMLSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/SequenceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/demo/domain/entities/qaentities/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

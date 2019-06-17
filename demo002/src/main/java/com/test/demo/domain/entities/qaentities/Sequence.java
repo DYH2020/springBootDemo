@@ -5,9 +5,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * Created by huangguoping.
- */
 @Entity
 @Table(name = "sys_sequence")
 public class Sequence {
