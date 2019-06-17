@@ -49,6 +49,13 @@
             <version>2.6.12</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.3</version>
+        </dependency>
+
     </dependencies>
     <!-- 不同的环境，可以在不同的环境下分开，连接不同的数据库 -->
     <profiles>
